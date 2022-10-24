@@ -1,0 +1,40 @@
+<link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head> 
+    <body>
+        <div class="container">
+            <div class="counterWraper">
+                <h3>HOME</h3>
+                <div class="homeCounter" >
+                    <div id="first-counter" class="homeCounterNumber">0</div>
+                </div>
+                <div class="buttonList">
+                    <div onclick="plusOne()" id="first-one" class="button">+1</div>
+                    <div onclick="plusTwo()" id="first-two" class="button">+2</div>
+                    <div onclick="plusThree()" id="firsst-three" class="button">+3</div>
+                </div>
+                 
+            </div>
+            <div class="counterWraper">
+                <h3>GUEST</h3>
+                <div class="homeCounter" >
+                    <div  id="second-counter" class="homeCounterNumber">0</div>
+                </div>
+                <div class="buttonList">
+                    <div onclick="plusOneSecond()" id="second-one" class="button">+1</div>
+                    <div onclick="plusTwoSecond()" id="second-two" class="button">+2</div>
+                    <div onclick="plusThreeSecond()" id="second-three" class="button">+3</div>
+                </div>
+                 
+            </div>
+    
+         </div>
+         <div>
+            <button onclick="erase()" class="reset-btn">RESET</button>
+         </div>
+         <script src="index.js"></script>
+    </body>
+</html>
